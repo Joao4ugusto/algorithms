@@ -1,4 +1,4 @@
-# Challenge (6 months) Data Structure and Algorithm 📚🔥
+# Challenge (6 months) Data Structure and Algorithm 📚
 <p align="center">
  <img src="banner.svg" alt="Banner">
 </p>

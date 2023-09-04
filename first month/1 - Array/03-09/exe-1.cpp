@@ -19,7 +19,7 @@ int main() {
     int val = 3;
     int k = removeElement(nums, val);
 
-    std::cout << "Saída: " << k << ", nums = [";
+    std::cout << "Output: " << k << ", nums = [";
     for (int i = 0; i < k; i++) {
         std::cout << nums[i];
         if (i < k - 1) {

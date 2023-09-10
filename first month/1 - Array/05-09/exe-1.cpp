@@ -1,35 +1,32 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
+ using namespace std;
 
-int searchInsert(vector<int>& nums, int target) {
-    int left = 0;
-    int right = nums.size() - 1;
+ int searchInsert(vector<int>& nums, int target) {
+   int left = 0;
+   int right = nums.size() - 1;
 
-    while (left <= right) {
-        int mid = left + (right - left) / 2;
+   while( left <= right){
+    int i = left + (right - left);
 
-        if (nums[mid] == target) {
-            return mid;
-        } else if (nums[mid] < target) {
-            left = mid + 1;
-        } else {
-            right = mid - 1;
-        }
+    if(nums[i] == target){
+      return i;
+    } else if(nums[i] < target) {
+       left = i + 1;
+    } else {
+      right = i - 1;
     }
-
-    return left; 
+   }
+   return left;
 }
 
-int main() {
-    vector<int> nums = {1, 3, 5, 6};
-    int target = 7;
-  
-    int result = searchInsert(nums, target);
+int main(){
+  vector<int> nums = {2,3,5,6};
+  int target = 1;
 
-    cout << "Output: " << result << endl; 
+  int result = searchInsert(nums, target);
 
+  cout << "Output: " << result;
 
-    return 0;
 }

@@ -23,7 +23,7 @@ char: single characters.
 ## Control Structures
 >C++ provides control structures for conditional execution and iteration, such as if, else, while, >for, and switch statements.
 
-### If-Else Statement
+## If-Else Statement
 ~~~~c++
 if (condition) {
   // Code to execute if the condition is true
@@ -32,21 +32,21 @@ if (condition) {
 }
 ~~~
 
-### While Loop
+## While Loop
 ~~~~c++
 while (condition) {
   // Code to execute while the condition is true
 }
 ~~~
 
-### For Loop
+## For Loop
 ~~~~c++
 for (initialization; condition; update) {
   // Code to execute while the condition is true
 }
 ~~~
 
-### Switch Statement
+## Switch Statement
 ~~~~c++
 switch (variable) {
     case value1:

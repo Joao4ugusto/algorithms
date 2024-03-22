@@ -1,3 +1,1 @@
-<p align="center">
- <img src="banner.svg" alt="Banner">
-</p>
+Algorithms & Data Structures & Computer Science studies

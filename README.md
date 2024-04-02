@@ -1,1 +1,1 @@
-Algorithms & Data Structures & Computer Science studies
+Algorithms & Data Structures & Computer Science studies.
